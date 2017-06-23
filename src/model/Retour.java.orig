@@ -1,0 +1,45 @@
+package model;
+
+public class Retour implements Element
+{
+
+<<<<<<< HEAD
+	@Override
+	public Object invoke(Object... args) {
+=======
+    private Variable toReturn;
+
+    public Retour()
+    {
+        this.toReturn = new Variable();
+    }
+
+    public Variable getToReturn()
+    {
+        return toReturn;
+    }
+
+    public void setToReturn(Variable toReturn)
+    {
+        this.toReturn = toReturn;
+    }
+
+    @Override
+	public Object invoke(Object... args) {
+
+>>>>>>> bc17c125135da172940df7670969a70f6a63c964
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+<<<<<<< HEAD
+=======
+	@Override
+	public String toCode() {
+
+		// TODO Auto-generated method stub
+        return null;
+    }
+
+>>>>>>> bc17c125135da172940df7670969a70f6a63c964
+}
